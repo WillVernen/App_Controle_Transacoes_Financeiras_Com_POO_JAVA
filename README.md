@@ -140,4 +140,6 @@ Durante o desenvolvimento, foquei em:
 
 ## Autor
 
+**Francisco Will Vernen de Sousa Josino** — [GitHub](https://github.com/WillVernen)
+
 Projeto acadêmico de laboratório de Programação Orientada a Objetos em Java.
