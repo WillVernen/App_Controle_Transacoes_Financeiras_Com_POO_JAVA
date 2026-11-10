@@ -12,3 +12,5 @@ lib/
 *.log
 .DS_Store
 Thumbs.db
+
+images/demo-output.txt
