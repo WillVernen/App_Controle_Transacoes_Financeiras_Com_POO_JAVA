@@ -55,6 +55,9 @@ public final class ConsoleUtil {
     }
 
     public static void pausar(Scanner scanner) {
+        if (Boolean.parseBoolean(System.getenv().getOrDefault("BANCO_SKIP_PAUSE", "false"))) {
+            return;
+        }
         System.out.println("\nPressione ENTER para continuar...");
         if (scanner.hasNextLine()) {
             scanner.nextLine();

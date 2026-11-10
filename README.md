@@ -102,10 +102,31 @@ Os scripts baixam o Lombok automaticamente (se necessário) e compilam com `java
 - E-mail: `cliente@email.com`
 - UF: `SP`
 
+## Capturas de tela
+
+Geradas a partir de um fluxo de teste real (`DemoFluxo` + `scripts/gerar-screenshots.ps1`):
+
+| Tela | Arquivo |
+|---|---|
+| Menu principal | ![Menu](images/01-menu-principal.png) |
+| Cadastro de cliente | ![Cadastro](images/02-cadastro-cliente.png) |
+| Abertura de contas e PIX | ![Contas](images/03-abertura-contas.png) |
+| Depósitos | ![Depósitos](images/04-depositos.png) |
+| Transferência PIX | ![PIX](images/05-transferencia-pix.png) |
+| Investimento | ![Investimento](images/06-investimento.png) |
+| Histórico | ![Histórico](images/07-historico-transacoes.png) |
+| Polimorfismo | ![Polimorfismo](images/08-polimorfismo-contas.png) |
+
+Para regenerar as imagens:
+
+```powershell
+.\scripts\gerar-screenshots.ps1
+```
+
 ## Documentação adicional
 
 - [DOCUMENTACAO.md](DOCUMENTACAO.md) — decisões técnicas e mapeamento dos conceitos POO
-- Pasta [`images/`](images/) — espaço para capturas de tela do console
+- Pasta [`images/`](images/) — capturas de tela do console
 
 ## Aprendizados
 
